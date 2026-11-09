@@ -53,12 +53,12 @@
       },
       "versions": [
         {
-          "version": "1.0.0",
-          "publishTimestamp": 1794218643,
+          "version": "1.0.1",
+          "publishTimestamp": 1794229565,
           "source": {
             "type": "git",
             "url": "https://github.com/gyxsza/approval-alert",
-            "commit": "33d03bbe64c20877b5c3815a2244a845b12cd22b"
+            "commit": "26040e2ef3485f6e371c78be72b647e5eae355e3"
           },
           "engines": {
             "dsh": "0.2.2-rc.1"
