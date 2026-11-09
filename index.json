@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "title": {
+    "en": "gyxsza's DSH Plugins",
+    "zh": "gyxsza 的 DSH 插件"
+  },
+  "description": {
+    "en": "Community plugins for DeepSeek Harness.",
+    "zh": "DeepSeek Harness 社区插件。"
+  },
+  "metadata": {
+    "categories": {
+      "accessibility": {
+        "title": {
+          "en": "Accessibility",
+          "zh": "辅助功能"
+        }
+      }
+    },
+    "labels": {
+      "notifications": {
+        "title": {
+          "en": "Notifications",
+          "zh": "通知"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@gyxsza/approval-alert",
+      "title": {
+        "en": "Approval Alert",
+        "zh": "审批提示"
+      },
+      "description": {
+        "en": "Plays a sound and shows a system notification when a permission approval is requested.",
+        "zh": "当需要权限审批时播放提示音并显示系统通知。"
+      },
+      "author": "gyxsza",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij4KICA8cGF0aCBmaWxsPSIjZjVhNjIzIiBkPSJNMTIgMjJhMiAyIDAgMCAwIDItMmgtNGEyIDIgMCAwIDAgMiAyem02LTZ2LTVjMC0zLjA3LTEuNjQtNS42NC00LjUtNi4zMlY0YTEuNSAxLjUgMCAwIDAtMyAwdi42OEM3LjY0IDUuMzYgNiA3LjkzIDYgMTF2NWwtMiAydjFoMTZ2LTFsLTItMnoiLz4KPC9zdmc+Cg==",
+      "metadata": {
+        "category": "accessibility",
+        "keywords": [
+          "approval",
+          "notification",
+          "sound",
+          "permission"
+        ],
+        "labels": [
+          "notifications"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794218643,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/gyxsza/approval-alert",
+            "commit": "33d03bbe64c20877b5c3815a2244a845b12cd22b"
+          },
+          "engines": {
+            "dsh": "0.2.2-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
